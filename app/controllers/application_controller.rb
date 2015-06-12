@@ -8,5 +8,9 @@ class ApplicationController < ActionController::Base
     render text: "Hello, world! This is Kessy Similien."
   end
 
+  def intro
+    render text: "This site will soon contain NBA related content for your enjoyment"
+  end
+
 
 end
